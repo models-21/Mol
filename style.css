@@ -242,10 +242,11 @@ p.description {
 .hero-image {
     flex: 1;
     max-width: 45%;
-    height: 500px;
+    height: 300px;
+    width:50px;
     background: url('https://via.placeholder.com/600x600/111111/00E6FF?text=3D+Объект') no-repeat center center/contain;
     position: absolute;
-    right: -100px;
+    right: 420px;
     top: 50%;
     transform: translateY(-50%);
     opacity: 0.7;
@@ -340,7 +341,7 @@ p.description {
     border-radius: 10px;
     overflow: hidden;
     position: relative;
-    height: 250px;
+    height: 330px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -611,4 +612,3 @@ p.description {
         padding: 20px;
     }
 }
-code.css

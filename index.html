@@ -15,11 +15,11 @@
             <div class="logo">3D СТУДИЯ</div>
             <nav class="nav">
                 <ul>
-                    <li><a href="#" class="active">ГЛАВНАЯ</a></li>
-                    <li><a href="#">УСЛУГИ</a></li>
-                    <li><a href="#">ПОРТФОЛИО</a></li>
-                    <li><a href="#">О НАС</a></li>
-                    <li><a href="#">КОНТАКТЫ</a></li>
+                    <li><a href="#hero" class="active">ГЛАВНАЯ</a></li>
+                    <li><a href="#services">УСЛУГИ</a></li>
+                    <li><a href="#portfolio">ПОРТФОЛИО</a></li>
+                    <li><a href="#about">О НАС</a></li>
+                    <li><a href="#contacts">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
             <button class="btn btn-talk">ДАВАЙТЕ ОБСУДИМ</button>
@@ -27,11 +27,11 @@
     </header>
 
     <main>
-        <section class="hero-section">
+        <section id="hero" class="hero-section">
             <div class="container">
                 <div class="hero-content">
                     <p class="subtitle"><span class="dot"></span> ПРЕМИУМ СТУДИЯ 3D МОДЕЛИРОВАНИЯ</p>
-                    <h1>Воплощаем Идеи <br> В Жизнь В 3D</h1>
+                    <h1>Воплощаем идеи <br> в жизнь в 3D</h1>
                     <p class="description">Мы создаем потрясающие 3D-модели и визуализации, которые помогут воплотить ваше видение в жизнь.</p>
                     <div class="hero-buttons">
                         <button class="btn btn-primary">ПОСМОТРЕТЬ НАШИ РАБОТЫ</button>
@@ -40,15 +40,16 @@
                 </div>
                 <div class="hero-image">
                     <!-- Здесь должно быть фоновое изображение или <img> для 3D объекта -->
-                     <!-- <img src = "https://img.magnific.com/premium-psd/abstract-black-blue-blurred-background_212417-1579.jpg"> -->
+                     <img src = "photo/965.jpg">
+
                 </div>
             </div>
         </section>
 
-        <section class="services-section">
+        <section id="services" class="services-section">
             <div class="container">
                 <p class="section-tag">ЧТО МЫ ДЕЛАЕМ</p>
-                <h2 class="section-title">Наши Услуги</h2>
+                <h2 class="section-title">Наши услуги</h2>
                 <div class="service-cards">
                     <div class="service-card">
                         <div class="icon-box"><i class="fas fa-cube"></i></div>
@@ -57,7 +58,7 @@
                     </div>
                     <div class="service-card">
                         <div class="icon-box"><i class="fas fa-globe"></i></div>
-                        <h3>Текстурирование и Материалы</h3>
+                        <h3>Текстурирование и материалы</h3>
                         <p>Реалистичные материалы и текстуры, которые оживляют модели.</p>
                     </div>
                     <div class="service-card">
@@ -67,40 +68,44 @@
                     </div>
                     <div class="service-card">
                         <div class="icon-box"><i class="fas fa-bezier-curve"></i></div>
-                        <h3>3D Анимация</h3>
+                        <h3>3D анимация</h3>
                         <p>Оживляем ваши модели с потрясающими анимациями.</p>
                     </div>
                 </div>
             </div>
         </section>
         
-        <section class="projects-section">
+        <section id="portfolio" class="projects-section">
             <div class="container">
                 <p class="section-tag">НАШИ РАБОТЫ</p>
-                <h2 class="section-title">Избранные Проекты</h2>
+                <h2 class="section-title">Избранные проекты</h2>
                 <div class="project-grid">
                     <div class="project-item" style="background-image: url('https://via.placeholder.com/300x200/222222/FFFFFF?text=Кресло');">
                         <div class="project-info">
-                            <h4>Футуристическое Кресло</h4>
+                            <img src = "photo/Дерево.jpg">
+                            <h4>Дерево</h4>
                             <span>Дизайн Продукта</span>
                         </div>
                     </div>
                     <div class="project-item" style="background-image: url('https://via.placeholder.com/300x200/222222/FFFFFF?text=Двигатель');">
                         <div class="project-info">
-                            <h4>Двигатель V8</h4>
-                            <span>Моделирование Твердых Поверхностей</span>
+                            <img src = "photo/Шары.jpg">
+                            <h4>Шары</h4>
+                            <span>Текстурирование</span>
                         </div>
                     </div>
                     <div class="project-item" style="background-image: url('https://via.placeholder.com/300x200/222222/FFFFFF?text=Дом');">
                         <div class="project-info">
-                            <h4>Современный Дом</h4>
-                            <span>Архитектурная Визуализация</span>
+                            <img src = "photo/Бочки1.jpg">
+                            <h4>Бочки</h4>
+                            <span>Архитектурная визуализация</span>
                         </div>
                     </div>
                     <div class="project-item" style="background-image: url('https://via.placeholder.com/300x200/222222/FFFFFF?text=Шлем');">
                         <div class="project-info">
-                            <h4>Кибер Шлем</h4>
-                            <span>Концептуальный Дизайн</span>
+                            <img src = "photo/торт.jpg">
+                            <h4>Торт</h4>
+                            <span>Концептуальный дизайн</span>
                         </div>
                     </div>
                 </div>
@@ -108,11 +113,11 @@
             </div>
         </section>
 
-        <section class="about-section">
+        <section id="about" class="about-section">
             <div class="container">
                 <div class="about-content">
                     <p class="section-tag">О НАС</p>
-                    <h2 class="section-title">Страсть К Деталям, <br> Совершенство В 3D</h2>
+                    <h2 class="section-title">Страсть к деталям, <br> совершенство в 3D</h2>
                     <p class="description">Мы — команда увлеченных 3D-художников и дизайнеров, посвященных созданию первоклассных 3D-решений. От концепции до финального рендера, мы уделяем особое внимание качеству, креативности и точности.</p>
                     <div class="stats-grid">
                         <div class="stat-item">
@@ -126,20 +131,21 @@
                         <div class="stat-item">
                             <span class="stat-number">50+</span>
                             <span class="stat-label">СЧАСТЛИВЫХ КЛИЕНТОВ</span>
+                            
                         </div>
                     </div>
                 </div>
-                <div class="about-image" style="background-image: url('https://via.placeholder.com/500x350/222222/FFFFFF?text=Рабочее+место');">
+                <div class="about-image" style="background-image: url('https://static.tildacdn.com/tild3733-3639-4135-b535-346164336461/sozdanie-komandy-raz.jpg');">
                     <!-- Изображение рабочего места -->
                 </div>
             </div>
         </section>
 
-        <section class="contact-section">
+        <section id="contacts" class="contact-section">
             <div class="container">
                 <div class="contact-left">
                     <p class="section-tag">СВЯЗАТЬСЯ</p>
-                    <h2 class="section-title">Давайте Создадим <br> Что-то Удивительное</h2>
+                    <h2 class="section-title">Давайте создадим <br> что-то удивительное</h2>
                     <p class="description">У вас есть проект на уме? Давайте обсудим, как мы можем воплотить ваши идеи в жизнь.</p>
                 </div>
                 <div class="contact-form">
